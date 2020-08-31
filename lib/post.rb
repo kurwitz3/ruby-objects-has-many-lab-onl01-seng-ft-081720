@@ -11,7 +11,11 @@ def self.all
 end
 def author_name
  self.author.name
-  
-end 
+  end 
+  def author_name 
+    if self.author == nil 
+      nil
+    else 
+      self.author.nameend
 
 end
