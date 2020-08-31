@@ -18,5 +18,6 @@ def author_name
     else 
       self.author.name
       end
+    end
 
 end
