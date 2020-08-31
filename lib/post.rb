@@ -13,5 +13,6 @@ def author_name
   self.Author.name 
 
 end 
+def add_post_by_title()
 
 end
