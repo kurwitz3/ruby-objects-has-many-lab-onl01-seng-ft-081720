@@ -10,11 +10,8 @@ def self.all
   @@all
 end
 def author_name
-  self.Author.name 
-
-end 
-def add_post_by_title(title)
-  new = Author.new(title)
+  self.Author.name
   
-end
+end 
+
 end
