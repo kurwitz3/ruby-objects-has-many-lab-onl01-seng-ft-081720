@@ -10,7 +10,7 @@ def self.all
   @@all
 end
 def author_name
-  Author.name 
+  self.Author.name 
 
 end 
 
