@@ -13,5 +13,7 @@ def add_post(new_post)
 end
 def add_post_by_title(title)
   x = Post.new(title)
+  add_post(title)
+end
   
 end 
